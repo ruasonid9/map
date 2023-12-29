@@ -1,0 +1,35 @@
+/* Simplicity v1.0 @ DmmD - 2023 */
+
+/* Defaults */
+* {
+	border: none;
+	color: rgb(18, 18, 18);
+	font-family: "Robots", sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	height: 3px;
+	width: 3px;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: rgb(79, 79, 79);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(143, 143, 143);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(111, 111, 111);
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(79, 79, 79);
+}
