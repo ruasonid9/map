@@ -1,11 +1,13 @@
 <!-- Script -->
 <script lang="ts">
 // Imports
+import mapbase from "$lib/maps/base.png";
 import map2020 from "$lib/maps/2020.png";
 import map2023 from "$lib/maps/2023.png";
 
 // Variables
 const maps = {
+	"base": mapbase,
 	"2020": map2020,
 	"2023": map2023
 };
